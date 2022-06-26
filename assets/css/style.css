@@ -1,0 +1,19 @@
+body{
+    font-family: 'roboto';
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-form{
+    position: relative;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-image: url(../img/setup.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 30px;
+}
