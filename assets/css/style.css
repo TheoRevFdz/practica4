@@ -1,19 +1,116 @@
-body{
-    font-family: 'roboto';
-    background-color: grey;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+body {
+  font-family: "roboto";
+  background-color: rgb(69, 68, 68);
 }
 
-.custom-form{
-    position: relative;
-    align-items: center;
-    width: 400px;
-    height: 500px;
-    background-image: url(../img/setup.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-    border-radius: 30px;
+.container {
+  width: 400px;
+  background-color: transparent;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.custom-form {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  background: linear-gradient(
+      to right,
+      rgb(140, 96, 72, 0.7),
+      rgb(244, 171, 132, 0.1)
+    ),
+    url(../img/setup.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  padding-top: 25px;
+  padding-left: 15%;
+  padding-right: 15%;
+  box-shadow: 10px 10px 15px 5px black;
+}
+
+.line {
+  height: 1px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 2px;
+  font-size: 12pt;
+}
+
+.title,
+.lbl {
+  color: white;
+}
+
+.title-container {
+  max-width: 95%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.lbl {
+  margin-bottom: 0;
+  margin-left: 8px;
+  font-size: 11pt;
+}
+
+.lbl2 {
+  color: white;
+  font-size: 11pt;
+}
+
+.frm {
+  margin-top: 50px;
+}
+
+.field {
+  width: 100%;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  background-color: #302018;
+  opacity: 0.8;
+  color: white;
+  text-indent: 5px;
+  margin-top: 3px;
+}
+
+.btn {
+  margin-top: 25px;
+  width: 100%;
+  height: 30px;
+  background-color: #91461d;
+  border: none;
+  color: white;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-icon {
+  margin-right: 10px;
+}
+
+.footer {
+  height: 100%;
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+#line_bottom {
+  margin-bottom: 15px;
 }

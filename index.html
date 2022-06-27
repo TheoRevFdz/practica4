@@ -1,19 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Practica 4</title>
-</head>
-<body>
-    <div class="custom-form">
-        <h3>INICIAR SESION</h3>
-        <h3>PLATAFORMA ECOMMERCE</h3>
+  </head>
+  <body>
+    <div class="container">
+      <div class="custom-form">
+        <div class="title-container">
+          <h3 class="title">INICIAR SESIÓN <br />PLATAFORMA ECOMMERCE</h3>
+          <hr class="line" />
+        </div>
+        <form action="#" class="frm">
+          <label for="email" class="lbl">CORREO</label>
+          <br />
+          <input type="text" name="email" class="field" />
+          <br />
+          <br />
+          <label for="pass" class="lbl">CONTRASEÑA</label>
+          <br />
+          <input type="password" name="pass" class="field" />
+          <br /><br />
+          <input type="checkbox" name="remember" id="remember" />
+          <label for="remember" class="lbl2">mantener activa la sesión</label>
+          <br />
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-right-to-bracket btn-icon"></i>
+            INGRESAR
+          </button>
+          <div class="footer">
+            <hr id="line_bottom" />
+            <a href="#" class="link">¿Olvidaste la contraseña?</a>
+          </div>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
